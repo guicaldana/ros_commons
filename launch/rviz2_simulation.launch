@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <include file="$(find-pkg-share ros_commons)/launch/rviz2.launch">
+    <arg name="settings" value="$(find-pkg-share ros_commons)/config/rviz2_config.rviz"/>
+  </include>
+</launch>
